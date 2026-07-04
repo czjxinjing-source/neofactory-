@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .obj{fill:none;stroke:#111;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+    .dim{fill:none;stroke:#111;stroke-width:1.4;stroke-linecap:round}
+    .ctr{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:8 6}
+    .txt{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:20px;fill:#111}
+    .small{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:16px;fill:#111}
+  </style>
+  <text x="36" y="36" class="txt">台阶轴程序排序</text>
+  
+  <line x1="90" y1="225" x2="650" y2="225" class="ctr"/>
+  <path d="M160 195 H330 V172 H520 V278 H330 V255 H160 Z" class="obj"/>
+  <circle cx="145" cy="150" r="5" fill="#111"/><text x="160" y="156" class="small">起刀 X24 Z2</text>
+  <text x="112" y="232" class="small">Ø20</text><text x="315" y="160" class="small">Z-20</text>
+  <text x="425" y="330" class="small">退刀 X80 Z80</text>
+
+  <text x="36" y="424" class="small">排序按准备、定位、切削 X20 Z-20、退刀、结束执行。</text>
+</svg>

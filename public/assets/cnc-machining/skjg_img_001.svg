@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .obj{fill:none;stroke:#111;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+    .dim{fill:none;stroke:#111;stroke-width:1.4;stroke-linecap:round}
+    .ctr{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:8 6}
+    .txt{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:20px;fill:#111}
+    .small{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:16px;fill:#111}
+  </style>
+  <text x="36" y="36" class="txt">端面外圆车削起刀点</text>
+  
+  <line x1="90" y1="225" x2="640" y2="225" class="ctr"/>
+  <rect x="160" y="170" width="320" height="110" class="obj"/>
+  <line x1="480" y1="155" x2="480" y2="295" class="dim"/>
+  <line x1="160" y1="305" x2="480" y2="305" class="dim"/>
+  <line x1="160" y1="298" x2="160" y2="314" class="dim"/><line x1="480" y1="298" x2="480" y2="314" class="dim"/>
+  <text x="286" y="330" class="small">L40</text>
+  <text x="498" y="222" class="small">Ø30</text>
+  <circle cx="530" cy="150" r="6" fill="#111"/><text x="545" y="156" class="small">起刀 X35 Z2</text>
+  <text x="488" y="298" class="small">Z0 端面</text>
+
+  <text x="36" y="424" class="small">外圆 Ø30，长度 40；起刀点 X35 Z2 位于工件外侧。</text>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">热继电器过载保护</text>
+  
+    <rect x="160" y="145" width="130" height="180" class="l"/><text x="178" y="240" class="t">FR</text>
+    <path d="M290 235 H420" class="l"/><circle cx="475" cy="235" r="50" class="l"/><text x="456" y="242" class="t">M</text>
+    <text x="140" y="120" class="s">热继电器动作：通常说明电机过载或缺相风险</text>
+  
+  <text x="34" y="426" class="s">热继电器用于过载保护，不能代替短路保护。</text>
+</svg>

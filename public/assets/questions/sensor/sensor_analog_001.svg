@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">4-20mA 压力信号</text>
+  
+    <line x1="135" y1="310" x2="620" y2="310" class="l"/><line x1="135" y1="310" x2="135" y2="120" class="l"/>
+    <line x1="135" y1="310" x2="620" y2="120" class="l"/>
+    <text x="118" y="335" class="s">4mA=0MPa</text><text x="540" y="335" class="s">20mA=1.6MPa</text>
+    <line x1="378" y1="310" x2="378" y2="215" class="dash"/><text x="355" y="205" class="s">12mA=0.8MPa</text>
+  
+  <text x="34" y="426" class="s">线性换算：12mA 位于 4 和 20 的中点，对应 0.8MPa。</text>
+</svg>

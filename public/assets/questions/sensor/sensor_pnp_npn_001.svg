@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">PNP/NPN 输出简化</text>
+  
+    <rect x="135" y="140" width="180" height="190" class="l"/><text x="180" y="130" class="s">PNP 输出</text><text x="155" y="205" class="s">输出给 PLC 输入正信号</text>
+    <rect x="445" y="140" width="180" height="190" class="l"/><text x="490" y="130" class="s">NPN 输出</text><text x="465" y="205" class="s">输出给 PLC 输入低电平</text>
+  
+  <text x="34" y="426" class="s">PNP/NPN 要与 PLC 输入公共端接法匹配。</text>
+</svg>

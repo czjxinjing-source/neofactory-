@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">孔轴间隙配合示意</text>
+  
+    <circle cx="270" cy="230" r="92" class="l"/><circle cx="270" cy="230" r="55" class="dash"/>
+    <text x="210" y="120" class="s">孔公差带 H7</text><text x="350" y="232" class="s">轴 g6 偏小</text>
+    <line x1="330" y1="230" x2="470" y2="230" class="d"/><text x="480" y="236" class="s">存在间隙</text>
+  
+  <text x="34" y="426" class="s">孔为 H7、轴为 g6 时通常形成间隙配合。</text>
+</svg>

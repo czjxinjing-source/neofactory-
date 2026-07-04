@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">智能产线基本流程</text>
+  
+    <rect x="60" y="190" width="88" height="54" class="l"/><text x="82" y="224" class="s">上料</text><line x1="148" y1="217" x2="172" y2="217" class="d"/><rect x="172" y="190" width="88" height="54" class="l"/><text x="194" y="224" class="s">定位</text><line x1="260" y1="217" x2="284" y2="217" class="d"/><rect x="284" y="190" width="88" height="54" class="l"/><text x="306" y="224" class="s">加工</text><line x1="372" y1="217" x2="396" y2="217" class="d"/><rect x="396" y="190" width="88" height="54" class="l"/><text x="418" y="224" class="s">检测</text><line x1="484" y1="217" x2="508" y2="217" class="d"/><rect x="508" y="190" width="88" height="54" class="l"/><text x="530" y="224" class="s">分拣</text><line x1="596" y1="217" x2="620" y2="217" class="d"/><rect x="620" y="190" width="88" height="54" class="l"/><text x="642" y="224" class="s">下料</text>
+  
+  <text x="34" y="426" class="s">常见流程：上料、定位、加工、检测、分拣、下料。</text>
+</svg>

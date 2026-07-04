@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">公差带与极限尺寸</text>
+  
+    <line x1="120" y1="245" x2="650" y2="245" class="d"/><text x="112" y="270" class="s">零线 30.000</text>
+    <rect x="260" y="160" width="160" height="80" class="l"/><text x="430" y="177" class="s">上偏差 +0.021</text><text x="430" y="238" class="s">下偏差 0</text>
+    <line x1="260" y1="160" x2="260" y2="245" class="dash"/><line x1="420" y1="240" x2="420" y2="245" class="dash"/>
+  
+  <text x="34" y="426" class="s">φ30 +0.021/0 的合格范围为 30.000 至 30.021 mm。</text>
+</svg>

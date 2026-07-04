@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">几何公差框格</text>
+  
+    <rect x="180" y="180" width="360" height="70" class="l"/>
+    <line x1="260" y1="180" x2="260" y2="250" class="d"/><line x1="390" y1="180" x2="390" y2="250" class="d"/>
+    <text x="208" y="224" class="t">⊥</text><text x="300" y="224" class="t">0.05</text><text x="450" y="224" class="t">A</text>
+    <text x="190" y="290" class="s">相对基准 A 的垂直度公差 0.05</text>
+  
+  <text x="34" y="426" class="s">框格含义：垂直度 0.05，相对基准 A。</text>
+</svg>

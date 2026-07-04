@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">粗糙度 Ra 1.6 标注</text>
+  
+    <path d="M160 285 L210 185 L260 285" class="l"/><line x1="210" y1="185" x2="350" y2="185" class="l"/>
+    <text x="370" y="192" class="t">Ra 1.6</text>
+    <path d="M120 330 C165 300,205 360,250 330 S335 300,390 330 S475 360,520 330" class="dash"/>
+    <text x="120" y="380" class="s">表示加工表面平均粗糙度要求</text>
+  
+  <text x="34" y="426" class="s">Ra 1.6 是表面粗糙度要求，不是尺寸公差。</text>
+</svg>

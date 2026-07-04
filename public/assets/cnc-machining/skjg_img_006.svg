@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .obj{fill:none;stroke:#111;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+    .dim{fill:none;stroke:#111;stroke-width:1.4;stroke-linecap:round}
+    .ctr{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:8 6}
+    .txt{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:20px;fill:#111}
+    .small{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:16px;fill:#111}
+  </style>
+  <text x="36" y="36" class="txt">矩形槽铣削路径</text>
+  
+  <rect x="130" y="125" width="430" height="245" class="obj"/>
+  <rect x="210" y="215" width="260" height="58" class="obj"/>
+  <line x1="210" y1="244" x2="470" y2="244" class="dim"/>
+  <path d="M430 232 L470 244 L430 256" class="obj"/>
+  <text x="210" y="202" class="small">X10</text><text x="450" y="202" class="small">X50</text>
+  <text x="300" y="300" class="small">槽宽 12</text><text x="568" y="250" class="small">F120</text>
+
+  <text x="36" y="424" class="small">槽从 X10 到 X50；槽底切削应使用 G01 X50 F120。</text>
+</svg>

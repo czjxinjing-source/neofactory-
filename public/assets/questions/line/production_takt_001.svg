@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">节拍瓶颈判断</text>
+  
+    <rect x="105" y="205" width="82" height="105" class="l"/><text x="112" y="335" class="s">上料</text><text x="118" y="195" class="s">35s</text><rect x="250" y="154" width="82" height="156" class="l"/><text x="257" y="335" class="s">加工</text><text x="263" y="144" class="s">52s</text><rect x="395" y="226" width="82" height="84" class="l"/><text x="402" y="335" class="s">检测</text><text x="408" y="216" class="s">28s</text><rect x="540" y="190" width="82" height="120" class="l"/><text x="547" y="335" class="s">分拣</text><text x="553" y="180" class="s">40s</text>
+    <text x="235" y="90" class="s">最长工序决定产线节拍</text>
+  
+  <text x="34" y="426" class="s">加工工序 52s 最长，是当前瓶颈。</text>
+</svg>

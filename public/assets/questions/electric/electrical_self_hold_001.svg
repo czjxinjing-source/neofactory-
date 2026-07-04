@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">电机自锁控制梯形图</text>
+  
+    <line x1="100" y1="130" x2="100" y2="335" class="l"/><line x1="650" y1="130" x2="650" y2="335" class="l"/>
+    <line x1="100" y1="210" x2="190" y2="210" class="l"/><text x="130" y="198" class="s">SB0 常闭</text>
+    <line x1="230" y1="210" x2="320" y2="210" class="l"/><text x="244" y="198" class="s">SB1 常开</text>
+    <path d="M320 210 H410 M320 250 H410 M365 210 V250" class="l"/><text x="334" y="275" class="s">KM 常开自锁</text>
+    <line x1="410" y1="210" x2="560" y2="210" class="l"/><circle cx="595" cy="210" r="35" class="l"/><text x="580" y="216" class="s">KM</text>
+  
+  <text x="34" y="426" class="s">启动按钮与 KM 常开辅助触点并联，形成自锁保持。</text>
+</svg>

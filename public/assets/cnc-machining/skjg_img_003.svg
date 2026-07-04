@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .obj{fill:none;stroke:#111;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+    .dim{fill:none;stroke:#111;stroke-width:1.4;stroke-linecap:round}
+    .ctr{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:8 6}
+    .txt{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:20px;fill:#111}
+    .small{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:16px;fill:#111}
+  </style>
+  <text x="36" y="36" class="txt">单孔钻削定位</text>
+  
+  <rect x="150" y="120" width="360" height="250" class="obj"/>
+  <circle cx="330" cy="245" r="28" class="obj"/>
+  <line x1="300" y1="245" x2="360" y2="245" class="ctr"/><line x1="330" y1="215" x2="330" y2="275" class="ctr"/>
+  <line x1="150" y1="390" x2="510" y2="390" class="dim"/><text x="318" y="414" class="small">50</text>
+  <line x1="125" y1="120" x2="125" y2="370" class="dim"/><text x="88" y="252" class="small">35</text>
+  <text x="304" y="206" class="small">X25 Y17.5</text><text x="150" y="104" class="small">G54 X0 Y0</text><text x="500" y="105" class="small">Z5 安全高度</text>
+
+  <text x="36" y="424" class="small">孔中心 X25 Y17.5；定位段应保持 Z5 安全高度。</text>
+</svg>

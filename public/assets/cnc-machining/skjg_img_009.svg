@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .obj{fill:none;stroke:#111;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+    .dim{fill:none;stroke:#111;stroke-width:1.4;stroke-linecap:round}
+    .ctr{fill:none;stroke:#111;stroke-width:1.2;stroke-dasharray:8 6}
+    .txt{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:20px;fill:#111}
+    .small{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:16px;fill:#111}
+  </style>
+  <text x="36" y="36" class="txt">外轮廓加开口槽纠错</text>
+  
+  <rect x="120" y="120" width="470" height="250" class="obj"/>
+  <path d="M255 120 V245 H455 V120" class="obj"/>
+  <text x="330" y="272" class="small">开口槽 宽 10</text><text x="598" y="230" class="small">Z-2 槽深</text>
+  <line x1="120" y1="395" x2="590" y2="395" class="dim"/><text x="342" y="420" class="small">80</text>
+  <line x1="95" y1="120" x2="95" y2="370" class="dim"/><text x="56" y="250" class="small">45</text>
+
+  <text x="36" y="424" class="small">Z-2 是槽底深度，不能用 G00 快速下到该深度。</text>
+</svg>

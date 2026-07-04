@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">正反转互锁简图</text>
+  
+    <line x1="100" y1="155" x2="650" y2="155" class="l"/><line x1="100" y1="295" x2="650" y2="295" class="l"/>
+    <text x="130" y="140" class="s">正转回路：SB正 -> KM反 常闭 -> KM正</text>
+    <text x="130" y="280" class="s">反转回路：SB反 -> KM正 常闭 -> KM反</text>
+    <circle cx="560" cy="155" r="32" class="l"/><text x="542" y="162" class="s">KM正</text>
+    <circle cx="560" cy="295" r="32" class="l"/><text x="542" y="302" class="s">KM反</text>
+  
+  <text x="34" y="426" class="s">两个接触器必须互锁，防止电源相间短路。</text>
+</svg>

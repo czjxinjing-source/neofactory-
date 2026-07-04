@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+  <rect width="760" height="460" fill="#fff"/>
+  <style>
+    .l{fill:none;stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#111;stroke-width:1.5;stroke-linecap:round}
+    .dash{fill:none;stroke:#111;stroke-width:1.4;stroke-dasharray:7 5}
+    .t{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:21px;fill:#111}
+    .s{font-family:Arial,'Microsoft YaHei',sans-serif;font-size:17px;fill:#111}
+  </style>
+  <text x="34" y="36" class="t">游标卡尺读数 23.40 mm</text>
+  
+    <line x1="90" y1="210" x2="640" y2="210" class="l"/>
+    <line x1="120" y1="190" x2="120" y2="165" class="d"/><text x="114" y="155" class="s">20</text><line x1="160" y1="190" x2="160" y2="178" class="d"/><text x="154" y="155" class="s">21</text><line x1="200" y1="190" x2="200" y2="178" class="d"/><text x="194" y="155" class="s">22</text><line x1="240" y1="190" x2="240" y2="178" class="d"/><text x="234" y="155" class="s">23</text><line x1="280" y1="190" x2="280" y2="178" class="d"/><text x="274" y="155" class="s">24</text><line x1="320" y1="190" x2="320" y2="165" class="d"/><text x="314" y="155" class="s">25</text><line x1="360" y1="190" x2="360" y2="178" class="d"/><text x="354" y="155" class="s">26</text><line x1="400" y1="190" x2="400" y2="178" class="d"/><text x="394" y="155" class="s">27</text><line x1="440" y1="190" x2="440" y2="178" class="d"/><text x="434" y="155" class="s">28</text><line x1="480" y1="190" x2="480" y2="178" class="d"/><text x="474" y="155" class="s">29</text><line x1="520" y1="190" x2="520" y2="165" class="d"/><text x="514" y="155" class="s">30</text><line x1="560" y1="190" x2="560" y2="178" class="d"/><text x="554" y="155" class="s">31</text>
+    <rect x="252" y="222" width="190" height="46" class="l"/>
+    <line x1="260" y1="222" x2="260" y2="262" class="d"/><line x1="277" y1="222" x2="277" y2="262" class="d"/><line x1="294" y1="222" x2="294" y2="262" class="d"/><line x1="311" y1="222" x2="311" y2="262" class="d"/><line x1="328" y1="222" x2="328" y2="278" class="d"/><line x1="345" y1="222" x2="345" y2="262" class="d"/><line x1="362" y1="222" x2="362" y2="262" class="d"/><line x1="379" y1="222" x2="379" y2="262" class="d"/><line x1="396" y1="222" x2="396" y2="262" class="d"/><line x1="413" y1="222" x2="413" y2="262" class="d"/><line x1="430" y1="222" x2="430" y2="262" class="d"/>
+    <text x="248" y="304" class="s">游标 0 在 23 mm 后，4 格对齐 = 0.40 mm</text>
+  
+  <text x="34" y="426" class="s">读数为 23 + 0.40 = 23.40 mm。</text>
+</svg>
