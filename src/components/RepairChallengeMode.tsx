@@ -110,8 +110,7 @@ export const RepairChallengeMode = ({ module, onProgressChange }: RepairChalleng
   };
 
   const abandon = () => {
-    if (!answers.length && !window.confirm("当前维修任务未完成，退出会扣除经验，确定退出吗？")) return;
-    if (answers.length && !window.confirm("当前维修任务未完成，退出会扣除经验，确定退出吗？")) return;
+    if (!window.confirm("当前维修任务未完成，退出会扣除经验，确定退出吗？")) return;
     finish(answers, true);
   };
 
@@ -176,7 +175,7 @@ export const RepairChallengeMode = ({ module, onProgressChange }: RepairChalleng
           <h2 className="mt-1 text-2xl font-black text-sky-950">{module.name}维修挑战</h2>
           <p className="mt-2 text-sm font-bold text-slate-600">答对加经验，答错扣经验；未完成退出会扣 6 XP。</p>
         </div>
-        <QuestionCard question={question} selectedIndex={selectedIndex} submitted={submitted} onSelect={handleSelect} onFillAnswer={(value) => setSelectedIndex(value)} />
+        <QuestionCard question={question} selectedIndex={selectedIndex} submitted={submitted} onSelect={handleSelect} onFillAnswer={(value) => setSelectedIndex(value)} contextLabel="维修挑战" />
         <div className="mt-5 grid gap-3 md:grid-cols-3">
           <button onClick={submit} disabled={submitted || selectedIndex === null} className="cartoon-button px-4 py-3 font-black disabled:cursor-not-allowed disabled:opacity-40">
             提交

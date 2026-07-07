@@ -112,7 +112,7 @@ export const ensureRepairEvent = (progress: UserProgress) => {
     repairEvent: {
       moduleId: module.id,
       status: "active",
-      message: `${module.name} 出现异常，需要完成一次 12 题诊断测试。`,
+      message: `${module.name} 出现异常，需要完成一次诊断挑战。`,
       startedAt: new Date().toISOString(),
     },
   };
@@ -219,7 +219,7 @@ export const completeTest = (input: CompleteTestInput): TestSettlement => {
         }
       : progress.repairEvent,
     recentLogs: [
-      `${input.moduleName} 完成 12 题诊断：${correct}/${total}，获得 ${xpEarned} XP`,
+      `${input.moduleName} 完成本轮诊断：${correct}/${total}，获得 ${xpEarned} XP`,
       ...(repairCompleted ? [`${input.moduleName} 维修完成，额外获得 3 XP`] : []),
       ...progress.recentLogs,
     ].slice(0, 8),

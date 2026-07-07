@@ -249,8 +249,8 @@ export const QuizPage = ({ level, module, userProgress, repairAttempt = false, o
         <div>
           <div className="mb-4 cartoon-card p-5">
             <p className="text-sm font-black text-orange-600">{activeRepair ? "工厂维修事件" : module.name}</p>
-            <h1 className="mt-1 text-2xl font-black text-sky-950">{level.name} · 12 题诊断</h1>
-            <p className="mt-2 text-xs font-bold text-slate-600">完整完成 12 题后才会记录成绩、经验和错题。</p>
+            <h1 className="mt-1 text-2xl font-black text-sky-950">{level.name} · {levelQuestions.length} 题诊断</h1>
+            <p className="mt-2 text-xs font-bold text-slate-600">完整完成本轮诊断后才会记录成绩、经验和错题。</p>
           </div>
           {isDrawing && (
             <div className="mb-4 rounded-[24px] border-4 border-sky-900/10 bg-white/88 p-4 shadow-soft">
@@ -281,7 +281,7 @@ export const QuizPage = ({ level, module, userProgress, repairAttempt = false, o
               </div>
             </div>
           )}
-          <QuestionCard question={question} selectedIndex={selectedIndex} submitted={submitted} onSelect={handleSelect} onFillAnswer={handleFillAnswer} />
+          <QuestionCard question={question} selectedIndex={selectedIndex} submitted={submitted} onSelect={handleSelect} onFillAnswer={handleFillAnswer} contextLabel={activeRepair ? "工厂维修事件" : "关卡诊断"} />
           <button
             onClick={handleNext}
             disabled={selectedIndex === null || (Array.isArray(selectedIndex) && selectedIndex.length === 0) || (typeof selectedIndex === "string" && selectedIndex.trim().length === 0)}

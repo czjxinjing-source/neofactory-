@@ -9,6 +9,7 @@ type QuestionCardProps = {
   submitted: boolean;
   onSelect: (index: number) => void;
   onFillAnswer?: (value: string) => void;
+  contextLabel?: string;
 };
 
 const difficultyLabel = {
@@ -58,7 +59,7 @@ const answerPlaceholder = (type?: string) => {
   return "请输入答案";
 };
 
-export const QuestionCard = ({ question, selectedIndex, submitted, onSelect, onFillAnswer }: QuestionCardProps) => {
+export const QuestionCard = ({ question, selectedIndex, submitted, onSelect, onFillAnswer, contextLabel = "学习训练题" }: QuestionCardProps) => {
   const [imageOpen, setImageOpen] = useState(false);
   const [imageFailed, setImageFailed] = useState(false);
   const imageSrc = question.imageUrl ?? question.image ?? undefined;
@@ -77,7 +78,7 @@ export const QuestionCard = ({ question, selectedIndex, submitted, onSelect, onF
   return (
   <section className="rounded-[28px] border-4 border-sky-900/15 bg-white/88 p-5 shadow-cartoon">
     <div className="mb-4 flex flex-wrap gap-2">
-      <span className="inline-flex rounded-full bg-amber-200 px-3 py-1 text-xs font-black uppercase tracking-[0.18em] text-orange-700">Repair Challenge</span>
+      <span className="inline-flex rounded-full bg-amber-200 px-3 py-1 text-xs font-black text-orange-700">{contextLabel}</span>
       {question.type && <span className="inline-flex rounded-full bg-sky-100 px-3 py-1 text-xs font-black text-sky-800">{typeLabel[question.type] ?? question.type}</span>}
       {question.difficulty && <span className="inline-flex rounded-full bg-violet-100 px-3 py-1 text-xs font-black text-violet-800">{difficultyLabel[question.difficulty]}</span>}
     </div>

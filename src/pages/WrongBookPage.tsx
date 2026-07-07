@@ -8,9 +8,10 @@ import { markWrongMastered } from "../utils/localData";
 type WrongBookPageProps = {
   userProgress: UserProgress;
   onProgressChange: (progress: UserProgress) => void;
+  onPractice?: (moduleId: string) => void;
 };
 
-export const WrongBookPage = ({ userProgress, onProgressChange }: WrongBookPageProps) => {
+export const WrongBookPage = ({ userProgress, onProgressChange, onPractice }: WrongBookPageProps) => {
   const [filter, setFilter] = useState("全部");
   const filtered = userProgress.wrongRecords.filter((record) => filter === "全部" || record.moduleId === filter);
 
@@ -55,7 +56,11 @@ export const WrongBookPage = ({ userProgress, onProgressChange }: WrongBookPageP
                 </div>
               )}
               <div className="mt-4 flex flex-wrap gap-2">
-                <button className="inline-flex items-center gap-2 rounded-[16px] bg-white px-4 py-2 text-sm font-black text-orange-700 shadow-soft hover:bg-amber-100">
+                <button
+                  onClick={() => record.moduleId && onPractice?.(record.moduleId)}
+                  disabled={!record.moduleId || !onPractice}
+                  className="inline-flex items-center gap-2 rounded-[16px] bg-white px-4 py-2 text-sm font-black text-orange-700 shadow-soft hover:bg-amber-100 disabled:cursor-not-allowed disabled:opacity-60"
+                >
                   <RotateCcw className="h-4 w-4" />
                   重新练习
                 </button>

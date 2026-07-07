@@ -132,7 +132,7 @@ export const App = () => {
   }
 
   if (route.page === "wrongbook") {
-    content = <WrongBookPage userProgress={userProgress} onProgressChange={setUserProgress} />;
+    content = <WrongBookPage userProgress={userProgress} onProgressChange={setUserProgress} onPractice={(moduleId) => handleOpenFunction("practice", moduleId)} />;
   }
 
   if (route.page === "profile") {

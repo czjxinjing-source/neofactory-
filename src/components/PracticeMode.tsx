@@ -115,7 +115,7 @@ export const PracticeMode = ({ module, userProgress, onProgressChange }: Practic
           <h2 className="mt-1 text-2xl font-black text-sky-950">{module.name}随机练习</h2>
           <p className="mt-2 text-sm font-bold text-slate-600">不限时间、不限题数。看答案和跳过会记录为待掌握。</p>
         </div>
-        <QuestionCard question={question} selectedIndex={selectedIndex} submitted={submitted} onSelect={handleSelect} onFillAnswer={handleText} />
+        <QuestionCard question={question} selectedIndex={selectedIndex} submitted={submitted} onSelect={handleSelect} onFillAnswer={handleText} contextLabel="自由训练" />
         <div className="mt-5 grid gap-3 md:grid-cols-4">
           <button onClick={handleSubmit} disabled={submitted || selectedIndex === null} className="cartoon-button px-4 py-3 font-black disabled:cursor-not-allowed disabled:opacity-40">
             提交
