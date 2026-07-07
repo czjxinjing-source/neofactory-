@@ -6,7 +6,7 @@
 
 ## 当前版本
 
-v0.2.0
+v0.2.1
 
 这是早期打包发布版本，题库、资料内容和界面体验后续仍会继续补充优化。
 
@@ -34,7 +34,7 @@ v0.2.0
 Windows 用户下载 Assets 中的安装包：
 
 ```text
-工造星球_0.2.0_x64-setup.exe
+工造星球_0.2.1_x64-setup.exe
 ```
 
 下载后双击安装程序，根据提示安装即可。安装完成后可从开始菜单或安装目录启动：
@@ -156,7 +156,7 @@ gongzao-planet-progress-v1
 当前 Windows 安装包通常生成在：
 
 ```text
-src-tauri/target/release/bundle/nsis/工造星球_0.2.0_x64-setup.exe
+src-tauri/target/release/bundle/nsis/工造星球_0.2.1_x64-setup.exe
 ```
 
 源码仓库不建议直接提交 `src-tauri/target/`、`dist/`、`node_modules/` 等大型构建产物。正式给用户下载的安装包应上传到 GitHub Release 的 Assets。
